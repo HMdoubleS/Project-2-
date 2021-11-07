@@ -1,6 +1,13 @@
-nav { 
-    
+.nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
     .logo {
     max-height: 3em;
     min-height: 1em;
-  }
+    margin-right: 40%;
+    justify-content: left;
+}
+
+
