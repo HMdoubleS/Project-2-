@@ -1,11 +1,44 @@
-.nav {
-  display: flex;
-  justify-content: space-around;
-  }
-.logo {
-  max-height: 3em;
-  min-height: 1em;
-  margin-right: 40%;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ 
+a {
+  color: black
+}
 
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 52px;
+  position: relative;
+}
+
+.logo {
+  width: 100%;
+}
+
+.nav-list {
+  display:flex;
+}
+
+main {
+  display: flex;
+
+}   
+
+.search p {
+padding-bottom: 20px;
+}
