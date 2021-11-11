@@ -5,6 +5,15 @@
   font-family: "Raleway", sans-serif;
   color: black;
 }
+.rating {
+  margin-left: 50px;
+}
+​
+.shrink {
+  width: 50%;
+  text-align: center;
+  font-size: 3rem;
+}
 
 header nav {
   display: flex;
@@ -77,4 +86,28 @@ a {
 
 .filters button {
     margin-right: 30px;
+    margin-bottom: 30px;
   }
+
+  .top-sections {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    border: 4px solid green;
+    justify-content: space-between;
+  }
+
+  ​
+.pop {
+  border-radius: 15px;
+  background-color: lightgray;
+  padding: 10px;
+  width: 28%;
+}
+​
+.accom {
+  border-radius: 15px;
+  background-color: lightgray;
+  padding: 10px;
+  width: 68%;
+}
