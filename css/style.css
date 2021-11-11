@@ -87,14 +87,9 @@ a {
 .filters button {
     margin-right: 30px;
     margin-bottom: 30px;
+    padding: 5px 10px;
+    border-radius: 15px;
   }
-
-.filter-1,
-.filter-2,
-.filter-3,
-.filter-4 {
-  border-radius: 15px;
-}
 
 .filters h3 {
   margin-right: 20px;
@@ -102,7 +97,6 @@ a {
 
 .top-sections {
   display: flex;
-  flex-direction: row;
   padding-left: 20px;
   border: 4px solid green;
   justify-content: space-between;
@@ -110,6 +104,8 @@ a {
 
   ​
 .pop {
+  display: grid;
+  grid-template-columns: 100px;
   border-radius: 15px;
   background-color: lightgray;
   padding: 10px;
@@ -117,6 +113,8 @@ a {
 }
 ​
 .accom {
+  display: grid;
+  grid-template-columns: 100px;
   border-radius: 15px;
   background-color: lightgray;
   padding: 10px;
