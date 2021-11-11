@@ -3,42 +3,78 @@
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  color: black;
 }
 
-header {
+header nav {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
- 
-a {
-  color: black
+  padding: 0 20px;
+  margin-top: 0;
+
 }
 
-nav {
+.nav-main {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  padding-top: 52px;
+  padding-top: 40px;
   position: relative;
+  margin-bottom: 5%;
 }
 
 .logo {
   width: 100%;
+  min-height: 10px;
+  max-height: 50px;
 }
 
 .nav-list {
   display:flex;
 }
 
-main {
+a {
+  text-decoration: none;
   display: flex;
+  justify-content: space-between;
+}
+ 
+.nav-link-1:hover,
+.nav-link-2:hover,
+.nav-link-3:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
 
-}   
+.nav-item-1 {
+  margin-right: 30%;
+  padding-bottom: 20px;
+}
+
+.nav-list a {
+  margin-inline-end: 50px;
+  padding-bottom: 20px;
+}
 
 .search p {
-padding-bottom: 20px;
+  padding-bottom: 30px;
+  }
+
+.search {
+  padding-left: 20px;
 }
+
+.filters {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+.filters button {
+    margin-right: 30px;
+  }
