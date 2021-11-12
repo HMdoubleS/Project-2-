@@ -80,11 +80,15 @@ a {
     margin-bottom: 30px;
     padding: 5px 10px;
     border-radius: 15px;
-    background-color: #F2F2F2;
     border-color: #F2F2F2;
     box-shadow: none;
     font-size: 20px;
   }
+
+.filters button:hover {
+  background-color: #deebff;
+  border-color: #0065FC;
+}
 
 .filters i {
   color: #0065FC;
@@ -122,4 +126,8 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+
+.footer-link:hover {
+  color: #0065FC;
 }
