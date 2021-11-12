@@ -72,7 +72,7 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     padding-left: 20px; 
-    font-size: 20px;
+    text-align: center;
   }
 
 .filters button {
@@ -93,10 +93,14 @@ a {
 .filters i {
   color: #0065FC;
   height: 30px;
+  padding-right: 10px;
 }
 
-.filters h3 {
+.filter-title {
   margin-right: 20px;
+  font-size: 15px; 
+  font-weight: 200;
+
 }
 
 #info-button {
