@@ -112,6 +112,26 @@ a {
   height: 30px;
 }
 
+
+#accommodations {
+  display: grid;
+  grid-template-columns: 70em 31em;
+  grid-template-rows: 50em;
+  grid-gap: 40px;
+  margin: auto;
+  justify-content: center;
+}
+
+.accommodations-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   display: grid;
   grid-template-columns: 33% 33% 33%;
