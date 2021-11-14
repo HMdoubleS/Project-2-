@@ -14,49 +14,35 @@ header nav {
   flex-wrap: wrap;
   padding: 0 20px;
   margin-top: 0;
+  border: 2px solid green;
 }
-
-.nav-main {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-between;
-  padding-top: 10px;
-  position: relative;
-  margin-bottom: 5%;
-}
-
 .logo {
   width: 100%;
   min-height: 10px;
   max-height: 50px;
+  border: 2px solid blue;
 }
 
-.nav-list {
-  display:flex;
-}
-
-a {
+header a {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
 }
- 
-.nav-link-1:hover,
-.nav-link-2:hover,
-.nav-link-3:hover {
+
+.nav-link {
+  padding-top: 35px;
+  outline: 1px solid purple;
+}
+
+.nav-link:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
+  padding-top: 33px;
 }
 
 .nav-item-1 {
-  margin-right: 30%;
-  padding-bottom: 20px;
-}
-
-.nav-list a {
-  margin-inline-end: 50px;
-  padding-bottom: 20px;
+  margin-right: 50%;
+  outline: 1px solid red;
 }
 
 .search p {
@@ -73,6 +59,7 @@ a {
     flex-direction: row;
     padding-left: 20px; 
     text-align: center;
+    border: 3px solid orangered;
   }
 
 .filters button {
@@ -83,6 +70,7 @@ a {
     border-color: #F2F2F2;
     box-shadow: none;
     font-size: 20px;
+    border: 3px solid blue;
   }
 
 .filters button:hover {
@@ -94,12 +82,14 @@ a {
   color: #0065FC;
   height: 30px;
   padding-right: 10px;
+  border: 2px solid black;
 }
 
 .filter-title {
   margin-right: 20px;
   font-size: 15px; 
   font-weight: 200;
+  border: 2px solid purple;
 
 }
 
@@ -112,25 +102,53 @@ a {
   height: 30px;
 }
 
-
-#accommodations {
-  display: grid;
-  grid-template-columns: 70em 31em;
-  grid-template-rows: 50em;
-  grid-gap: 40px;
-  margin: auto;
-  justify-content: center;
+.accom {
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 10px;
+  width: 62%;
 }
 
-.accommodations-container {
-  display: grid;
-  grid-template-columns: 20% 20% 20%;
-}
-
-aside {
+.accom-card-wrap {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  outline: 3px solid brown;
 }
+
+.accom-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 10px;
+  border: 2px solid green;
+}
+
+.accom-card img {
+  width: 100%;
+  height: 10em;
+  padding: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.accom-card a {
+  text-decoration: none;
+  color: black; 
+}
+
+.card-text-wrap {
+  margin-left: 10px;
+}
+
+
+
+
+
+
 
 footer {
   display: grid;
