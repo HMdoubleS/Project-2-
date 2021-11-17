@@ -23,7 +23,11 @@
         <h2>Find a place for your dream vacation</h2>
         <p>Downtown or in nature</p></section>
        
-        <section class="search-container"></section>
+        <section class="search-bar">
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" placeholder="Marseille, France">
+          <button class="long-search"><strong class="search-text">Search</strong></button>
+        </section>
 
         <section class="filters">
             <h2 class="filter-title">Filters</h2>
@@ -32,12 +36,15 @@
             <button type="button" class="button"><i class="fas fa-heart"></i>Romantic</button>
             <button type="button" class="button"><i class="fas fa-dog"></i>Pets allowed</button>
         </section>
+        
+        <section class="info">
+          <i class="fas fa-info" id="info-button"></i> 
+          <p class="info-text">More than 500 accommodations are available in this city.</p>
+        </section>
+        
         </header>
-       
-       
+        
         <main>
-          <p><i class="fas fa-info" id="info-button"></i> More than 500 accommodations are available in this city.</p>
-          
           <section id="accom" class="accom">
             <h2>Accommodations in Marseille</h2>
           <div class="accom-card-wrap">
@@ -61,7 +68,7 @@
               <a href="#"><img src="images/hebergements/4_small/hotel du port.jpg" alt="Hôtel du port"/>
                 <div class="card-text-wrap">
                   <h3>Hôtel du port</h3>
-                  <p>Night starting at 25&#8364;</p>
+                  <p>Night starting at 52&#8364;</p>
                   <div>
                     <i class= "fas fa-star"></i>
                     <i class= "fas fa-star"></i>
@@ -77,7 +84,7 @@
               <a href="#"><img src="images/hebergements/4_small/Les mouettes Hotel.jpg" alt="Les mouettes Hotel"/>
                 <div class="card-text-wrap">
                   <h3>Les mouettes Hotel</h3>
-                  <p>Night starting at 25&#8364;</p>
+                  <p>Night starting at 76&#8364;</p>
                   <div>
                     <i class= "fas fa-star"></i>
                     <i class= "fas fa-star"></i>
@@ -93,7 +100,7 @@
               <a href="#"><img src="images/hebergements/4_small/Hôtel de la mer.jpg" alt="Hôtel de la mer"/>
                 <div class="card-text-wrap">
                   <h3>Hôtel de la mer</h3>
-                  <p>Night starting at 25&#8364;</p>
+                  <p>Night starting at 46&#8364;</p>
                   <div>
                     <i class= "fas fa-star"></i>
                     <i class= "fas fa-star"></i>
@@ -109,7 +116,7 @@
               <a href="#"><img src="images/hebergements/4_small/Auberge Le Panier.jpg" alt="Auberge Le Panier"/>
                 <div class="card-text-wrap">
                   <h3>Auberge Le Panier</h3>
-                  <p>Night starting at 25&#8364;</p>
+                  <p>Night starting at 23&#8364;</p>
                   <div>
                     <i class= "fas fa-star"></i>
                     <i class= "fas fa-star"></i>
@@ -125,7 +132,7 @@
               <a href="#"><img src="images/hebergements/4_small/Hôtel chez Amina.jpg" alt="Hôtel chez Amina"/>
                 <div class="card-text-wrap">
                   <h3>Hôtel chez Amina</h3>
-                  <p>Night starting at 25&#8364;</p>
+                  <p>Night starting at 93&#8364;</p>
                   <div>
                     <i class= "fas fa-star"></i>
                     <i class= "fas fa-star"></i>
@@ -137,26 +144,62 @@
               </a>
             </section>
 
-            <button type="button">Show More</button>
+            <h4 class="show-more">Show More</h4>
 
           </section>
         </div>
           
-          <aside>
-          <div class="most-popular">
-            <section class="most-popular-header">
-              <h2 class="most-popular-header-text">Most Popular<i class="fas fa-chart-line"></i></h2></section>
-            
-              <div class="most-popular-container">
-              <div class="pop--card">
-                <h3>Morning Sun Hotel</h3></div>
-              
-              <div class="pop--card">
-                <h3>Au coeur de l'eau Bed and Breakfast</h3></div>
-              
-              <div class="pop--card">
-                <h3>Tout bleu et Blanc Hotel</h3></div>
-          </div>
+        <aside>
+          <section id="pop" class="pop">
+            <h2 class="pop-text">Most Popular<i class="fas fa-chart-line"></i></h2>
+          <div class="pop-card-wrap">
+            <section class="pop-card">
+              <a href="#"><img src="images/hebergements/4_small/Morning Sun Hotel.jpg" alt="Morning Sun Hotel"/>
+                <div class="card-text-wrap-pop">
+                  <h3>Morning Sun Hotel</h3>
+                  <p>Night starting at 128&#8364;</p>
+                  <div>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                  </div>
+                </div>
+              </a>
+            </section>
+          
+            <section class="pop-card">
+              <a href="#"><img src="images/hebergements/4_small/Au coeur de l'eau Bed and Breakfast.jpg" alt="Au coeur de l'eau Bed and Breakfast"/>
+                <div class="card-text-wrap-pop">
+                  <h3>Au coeur de l'eau Bed and Breakfast</h3>
+                  <p>Night starting at 78&#8364;</p>
+                  <div>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                  </div>
+                </div>
+              </a>
+            </section>
+
+            <section class="pop-card">
+              <a href="#"><img src="images/hebergements/4_small/Tout bleu et Blanc Hotel.jpg" alt="Tout bleu et Blanc Hotel"/>
+                <div class="card-text-wrap-pop">
+                  <h3>Tout bleu et Blanc Hotel</h3>
+                  <p>Night starting at 68&#8364;</p>
+                  <div>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                    <i class= "fas fa-star"></i>
+                  </div>
+                </div>
+              </a>
+            </section>
           </div>
         </aside>
     ​
