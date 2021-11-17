@@ -77,10 +77,16 @@ header a {
 .search-bar button {
   border: 1px solid lightgray;
   padding: 6px;
-  color: #DEBFF;
+  color: #DEEBFF;
   background-color: #0065fc;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.long-search:hover,
+.search-text:hover {
+  color: black;
+  border: black;
 }
 
 .search-text {
@@ -170,7 +176,8 @@ header a {
   padding: 10px;
   width: 30%;
   margin-bottom: 10px;
-  box-shadow: 1 1 1 1;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
 .accom-card img {
@@ -181,6 +188,11 @@ header a {
   border-top-right-radius: 20px;
   margin-top: 3px;
   margin-left: 3px;
+}
+
+.accom-card img:hover {
+  filter: brightness(95%);
+  color: black;
 }
 
 .accom-card a {
@@ -194,7 +206,9 @@ header a {
 
 .show-more {
   display: flex;
-  justify-content: left;
+  border: none;
+  justify-items: initial;
+  
 }
 
 aside {
@@ -202,16 +216,16 @@ aside {
   float: right;
   flex-direction: column;
   background-color: lightgray;
-  width: 35%;
+  width: 30%;
   margin-right: 25px;
-  outline: 2px solid blue;
+  border-radius: 15px;
 }
 
 .pop-card {
   background-color: white;
   border-radius: 15px;
   margin: 15px 25px;
-  outline: 2px solid purple;
+  width: 400px;
 }
 
 .pop-card a {
@@ -227,6 +241,7 @@ aside {
 }
 .pop-text {
   padding: 10px;
+  outline: 2px solid red;
 }
 
 .pop-text i {
@@ -243,12 +258,11 @@ aside img {
 
 
 .card-text-wrap-pop {
-  display: inline-flex;
-  justify-content: flex-end;
+  float: right;
   flex-wrap: wrap;
-  flex-direction: column;
-  text-decoration: none;
-  outline: green;
+  width: 45%;
+  height: 100%;
+  outline: 2px solid green;
 }
 
 footer {
