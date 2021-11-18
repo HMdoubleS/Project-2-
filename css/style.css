@@ -158,9 +158,11 @@ header a {
 .accom {
   background-color: lightgray;
   border-radius: 15px;
+  margin-left: 20px;
   padding: 10px;
   width: 62%;
   float: left;
+  height: 658px;
 }
 
 .accom-card-wrap {
@@ -169,11 +171,19 @@ header a {
   flex-wrap: wrap;
 }
 
+.blue-star {
+  color: #0065fc
+}
+
+.gray-star {
+  color: #a4a29b
+}
+
 .accom-card {
   background-color: white;
   border-radius: 15px;
   margin-top: 15px;
-  padding: 10px;
+  padding: 8px;
   width: 30%;
   margin-bottom: 10px;
   box-sizing: border-box;
@@ -204,10 +214,14 @@ header a {
   margin-left: 10px;
 }
 
-.show-more {
-  display: flex;
+.accom button {
+  background-color: lightgray;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 35px;
   border: none;
-  justify-items: initial;
+  justify-content: left;
+  font-weight: bold;
   
 }
 
@@ -241,7 +255,6 @@ aside {
 }
 .pop-text {
   padding: 10px;
-  outline: 2px solid red;
 }
 
 .pop-text i {
@@ -252,17 +265,61 @@ aside img {
   width: 10.3em;
   height: 10em; 
   align-self: flex-start;
+  padding: 10px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
+aside img:hover {
+  filter: brightness(95%);
+  color: black;
+}
 
 .card-text-wrap-pop {
   float: right;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 45%;
-  height: 100%;
-  outline: 2px solid green;
+  justify-content: space-evenly;
+  width: 55%;
+  height: 60px;
+}
+
+.activ {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 15px;
+  margin-right: 30px;
+  padding-top: 15px;
+}
+
+.activ-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  flex-wrap: wrap;
+  height: 170px;
+  width: 275px;
+  margin: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.activ img {
+  height: 120px;
+  width: 275px;
+  object-fit: cover;
+  border-radius: 15 15 0 0;
+}
+
+.activ img:hover {
+  filter: brightness(95%);
+  color: black;
 }
 
 footer {
