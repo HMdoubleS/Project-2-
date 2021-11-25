@@ -12,6 +12,8 @@ body {
   margin: auto;
 }
 
+/*-----------------------HEADER--------------------------*/
+
 header nav {
   display: flex;
   align-items: center;
@@ -46,6 +48,9 @@ header a {
 .nav-item-1 {
   margin-right: 50%;
 }
+
+
+/*-----------------------SEARCH-----------------------------*/
 
 .search p {
   padding-bottom: 30px;
@@ -99,6 +104,7 @@ header a {
   color: white;
 }
 
+/*---------------------------FILTERS------------------------*/
 
 .filters {
   display: flex;
@@ -141,6 +147,9 @@ header a {
   justify-content: center;
 }
 
+/*-----------------------INFO-------------------------*/
+
+
 #info-button {
   border: 1px solid #DEEBFF;
   color: #0065FC;
@@ -161,6 +170,10 @@ header a {
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
+
+/*------------------------ACCOMMODATIONS------------------*/
+
 
 .accom {
   background-color: lightgray;
@@ -230,6 +243,8 @@ header a {
   justify-content: left;
   font-weight: bold;}
 
+/*----------------------POPULAR-------------------------*/
+
 aside {
   display: flexbox;
   float: right;
@@ -290,22 +305,22 @@ aside img:hover {
   width: 55%;
   margin: 0;
 }
-
+/*------------------------ACTIVITIES---------------------*/
 .activ {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-start;
+  display: grid;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   border-radius: 15px;
   margin-right: 30px;
   margin-left: 20px;
   padding-top: 15px;
-
+  outline: 2px solid red;
 }
 
 .activ-card {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   flex-direction: row;
   background-color: white;
   height: 170px;
@@ -320,17 +335,19 @@ aside img:hover {
 }
 
 .activ img {
-  height: 120px;
+  height: 135px;
   width: 275px;
   object-fit: cover;
   border-radius: 15 15 0 0;
+  background-size: cover;
+  background-position: center;
 }
 
 .activ img:hover {
   filter: brightness(95%);
   color: black;
 }
-
+/* --------------------- FOOTER -------------------------*/
 footer {
   display: grid;
   grid-template-columns: 33% 33% 33%;
