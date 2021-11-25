@@ -63,7 +63,7 @@ header a {
 
 .search-bar {
   display: flex;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
   height: 40px;
   margin-bottom: 15px;
   margin-left: 20px;
@@ -246,7 +246,7 @@ header a {
 /*----------------------POPULAR-------------------------*/
 
 aside {
-  display: flexbox;
+  display: flex;
   float: right;
   flex-direction: column;
   background-color: lightgray;
@@ -338,7 +338,7 @@ aside img:hover {
   height: 135px;
   width: 275px;
   object-fit: cover;
-  border-radius: 15 15 0 0;
+  border-radius: 15px 15px 0 0;
   background-size: cover;
   background-position: center;
 }
