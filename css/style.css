@@ -286,13 +286,8 @@ aside {
   flex-direction: column;
   margin-right: 20px;
 }
-.pop-text i {
-  margin-left: 200px;
-}
 
-.pop-text {
-  padding: 25px;
-}
+
 
 aside img {
   width: 10.3em;
