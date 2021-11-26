@@ -48,12 +48,6 @@ header a {
 .nav-item-1 {
   margin-right: 50%;
 }
-<<<<<<< HEAD
-
-
-/*-----------------------SEARCH-----------------------------*/
-=======
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
 
 .search p {
   padding-bottom: 30px;
@@ -66,11 +60,7 @@ header a {
 
 .search-bar {
   display: flex;
-<<<<<<< HEAD
-  flex-flow: row wrap;
-=======
   flex-flow: row-wrap;
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
   height: 40px;
   margin-bottom: 15px;
   margin-left: 20px;
@@ -90,7 +80,6 @@ header a {
 .search-bar input {
   border: 1px solid lightgray;
   padding: 9px;
-<<<<<<< HEAD
 }
 
 .search-bar button {
@@ -108,40 +97,15 @@ header a {
   border: black;
 }
 
-=======
-}
-
-.search-bar button {
-  border: 1px solid lightgray;
-  padding: 6px;
-  color: #DEEBFF;
-  background-color: #0065fc;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.long-search:hover,
-.search-text:hover {
-  color: black;
-  border: black;
-}
-
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
 .search-text {
   color: white;
 }
 
-<<<<<<< HEAD
-/*---------------------------FILTERS------------------------*/
-
-.filters {
-  display: flex;
-=======
 
 .filters {
   display:flex;
   flex-wrap: wrap;
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
+
   flex-direction: row;
   padding-left: 20px; 
   text-align: center;
@@ -156,10 +120,9 @@ header a {
   align-items: center;
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
+  
   font-weight: bold;
-=======
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
+
   }
 
 .filters button:hover {
@@ -173,10 +136,7 @@ header a {
   width: 30px;
   border-radius: 50%;
   padding-top: 7px;
-<<<<<<< HEAD
-  margin-right: 10px;
-=======
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
+  
 }
 
 .filters h2 {
@@ -208,62 +168,7 @@ header a {
 
 .info {
   margin-top: 10px;
-  margin-bottom: 15px;
-<<<<<<< HEAD
-}
-
-
-/*------------------------ACCOMMODATIONS------------------*/
-
-
-.accom {
-  background-color: lightgray;
-  border-radius: 20px;
-  margin-left: 20px;
-  padding: 30px;
-  width: 62%;
-  float: left;
-  height: 658px;
-}
-
-.accom-card-wrap {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.blue-star {
-  color: #0065fc
-}
-
-.gray-star {
-  color: #a4a29b
-}
-
-.accom-card {
-  background-color: white;
-  border-radius: 20px;
-  margin-top: 30px;
-  padding: 5px;
-  width: 30%;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 5px gray;
-}
-
-.accom-card img {
-  justify-content: center;
-  width: 100%;
-  height: 10em;
-  padding: 5px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-top: 3px;
-  margin-left: 3px;
-}
-
-=======
-}
+  margin-bottom: 15px;}
 
 .accom {
   background-color: lightgray;
@@ -310,7 +215,7 @@ header a {
   margin-left: 3px;
 }
 
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
+
 .accom-card img:hover {
   filter: brightness(95%);
   color: black;
@@ -323,8 +228,7 @@ header a {
 
 .card-text-wrap {
   margin-left: 10px;
-<<<<<<< HEAD
-=======
+  
 }
 
 .accom button {
@@ -335,8 +239,8 @@ header a {
   border: none;
   justify-content: left;
   font-weight: bold;
-  
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
+
+
 }
 
 .accom button {
@@ -351,26 +255,7 @@ header a {
 /*----------------------POPULAR-------------------------*/
 
 aside {
-<<<<<<< HEAD
-
-  flex-direction: column;
-  float: right;
-  display: flex;
-  margin-right: 25px;
-  border-radius: 15px;
-  width: 30%;
-  background-color: lightgray;
-}
-
-.pop-card {
-
-  margin: 15px 25px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px gray;
-
-  width: 375px;
-  background-color: white;
-=======
+  
   display: flexbox;
   float: right;
   flex-direction: column;
@@ -386,7 +271,7 @@ aside {
   margin: 15px 25px;
   width: 400px;
   box-shadow: 2px 2px 5px gray;
->>>>>>> 00d47056be9c0d3ae244754d5ed5649768cc02a8
+
 }
 
 .pop-card a {
