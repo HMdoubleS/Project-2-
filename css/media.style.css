@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    * {
+        font-family: "Raleway", sans-serif;
+    }
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+
+
+.pop-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+   }
+
+.accom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+.accom-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+.activ-card-wrap {
+    flex-direction: column;
+ }
+}
+

@@ -12,7 +12,7 @@ body {
   margin: auto;
 }
 
-/*-----------------------HEADER--------------------------*/
+/*-- NAVIGATION--*/
 
 header nav {
   display: flex;
@@ -49,9 +49,12 @@ header a {
   margin-right: 50%;
 }
 
+/*-- SEARCH--*/
+
 .search p {
   padding-bottom: 30px;
   }
+
 
 .search {
   padding-left: 20px;
@@ -75,7 +78,7 @@ header a {
   background-color: lightgrey;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 25px;
+  width: 35px;
   text-align: center;
 }
 
@@ -87,6 +90,7 @@ header a {
 .search-bar button {
   border: 1px solid lightgray;
   padding: 6px;
+  width: 80px;
   color: #DEEBFF;
   background-color: #0065fc;
   border-top-right-radius: 10px;
@@ -103,6 +107,7 @@ header a {
   color: white;
 }
 
+/*-- FILTERS--*/
 
 .filters {
   display:flex;
@@ -122,7 +127,6 @@ header a {
   align-items: center;
   display: flex;
   flex-direction: row;
-  
   font-weight: bold;
 
   }
@@ -138,7 +142,6 @@ header a {
   width: 30px;
   border-radius: 50%;
   padding-top: 7px;
-  
 }
 
 .filters h2 {
@@ -149,8 +152,7 @@ header a {
   justify-content: center;
 }
 
-/*-----------------------INFO-------------------------*/
-
+/*-- INFO--*/
 
 .info i {
   display: inline-block;
@@ -162,36 +164,41 @@ header a {
   margin-right: 10px;
   text-align: center;
   align-content: center;
-  margin: 15px;
+  margin: 10px;
+  padding: 3px;
 }
 
 .info-text {
   display: inline-block;
-  width: 40%;
+  width: 27%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
 }
 
 .info {
   margin-top: 10px;
   margin-bottom: 15px;
+  padding-bottom: 20px;
 }
-/*-----------------ACCOMMODATIONS-----------------------*/
+
+/*-- ACCOMMODATIONS--*/
+
 .accom-pop {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  outline: 3px solid green;
 }
-
 
 .accom {
   display: inline-block;
   justify-content: start;
   background-color: lightgray;
   border-radius: 15px;
-  margin-left: 20px;
+  margin-left: 15px;
   padding: 10px;
-  width: 60%;
+  width: 62%;
 }
 
 .accom h2 {
@@ -246,21 +253,23 @@ header a {
   
 }
 
-.accom button {
-  display: flex;
+.show-more {
+  display: inline-block;
+  margin-right: 86%;
   background-color: lightgray;
+  border: none;
+  justify-content: left;
   padding-top: 15px;
   margin-bottom: 10px;
-  margin-left: 10%;
-  border: none;
-  font-weight: bold;
-  outline: 3px solid red;
+  font-weight: 700;
+  align-content: left;
 }
 
-/*----------------------POPULAR-------------------------*/
-.pop-card-wrap {
+/*-- POPULAR--*/
+
+.pop-wrap {
   display: inline-block;
-  width: 33%;
+  width: 35%;
   background-color: lightgray;
   border-radius: 15px;
   padding: 15px;
@@ -339,21 +348,27 @@ header a {
 }
 
 .card-text-wrap-pop h3 {
-  height:45%;
-  outline: 2px solid orangered;
+  height:30%;
 }
 
 .card-text-wrap-pop div {
   height:15%;
-  outline: 3px solid green;
 }
 
 .card-text-wrap-pop p {
-  height: 50%;
-  outline: 2px solid black;
+  height: 55%;
 }
 
-/*------------------------ACTIVITIES---------------------*/
+.card-text-wrap-pop {
+  justify-content: space-evenly;
+  width: 55%;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+/*-- ACTIVITIES--*/
 .activ {
   border-radius: 15px;
   padding: 20px;
@@ -361,43 +376,67 @@ header a {
 
 .activ-card {
   display: block;
-  padding: 20px;
+  padding: 0;
   border-radius: 15px;
   background-color: white;
+  box-shadow: 2px 2px 5px gray;
+  margin: 0;
 }
 
 .activ-card-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0;
+  margin-top: 10px;
   background-color: white;
   justify-content: space-between;
 }
 
-.activ-image-tall {
-  width: 10px;
-  height: 30px;
+.activ-tall img {
+  width: 265px;
+  height: 365px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
-.activ-image-small {
-  height: 15px;
-  width: 15px;
+.activ-small img{
+  height: 160px;
+  width: 285px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 0;
+  padding: 0;
 }
 
+.activ a {
+  text-decoration: none;
+}
+.activ h3 {
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
 .activ img:hover {
   filter: brightness(95%);
   color: black;
 }
-/* --------------------- FOOTER -------------------------*/
+
+/*-- FOOTER--*/
 footer {
-  display: inline-block;
-  grid-template-columns: 33% 33% 33%;
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 10%;
-  margin-left: 25px;
-  outline: 3px solid blue;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+footer h3 {
+  padding: 0;
 }
 
 footer a {
