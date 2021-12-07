@@ -163,8 +163,8 @@ header a {
   width: 25px;
   margin-right: 10px;
   text-align: center;
-  align-content: center;
-  margin: 10px;
+  vertical-align: top;
+  margin-bottom: 10px;
   padding: 3px;
 }
 
@@ -172,14 +172,12 @@ header a {
   display: inline-block;
   width: 27%;
   flex-wrap: wrap;
-  margin-top: 20px;
-  
 }
 
 .info {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 15px;
-  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 /*-- ACCOMMODATIONS--*/
@@ -197,7 +195,7 @@ header a {
   background-color: lightgray;
   border-radius: 15px;
   margin-left: 15px;
-  padding: 10px;
+  padding: 30px;
   width: 62%;
 }
 
@@ -255,14 +253,13 @@ header a {
 
 .show-more {
   display: inline-block;
-  margin-right: 86%;
   background-color: lightgray;
   border: none;
   justify-content: left;
   padding-top: 15px;
   margin-bottom: 10px;
   font-weight: 700;
-  align-content: left;
+  margin-left: 15px;
 }
 
 /*-- POPULAR--*/
@@ -272,7 +269,7 @@ header a {
   width: 35%;
   background-color: lightgray;
   border-radius: 15px;
-  padding: 15px;
+  padding: 25px;
   margin-left: 25px;
 }
 
@@ -296,6 +293,7 @@ header a {
   background-color: white;
   border-radius: 15px;
   padding: 5px;
+  margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 20px;
   width: 400px;
@@ -310,7 +308,8 @@ header a {
 }
 
 .pop-image {
-  width: 10.3em;
+  width: 45%;
+  object-fit: cover;
   height: 10em; 
   flex: none;
   border-radius: 10px 0 0 10px;
@@ -348,7 +347,7 @@ header a {
 }
 
 .card-text-wrap-pop h3 {
-  height:30%;
+  height:35%;
 }
 
 .card-text-wrap-pop div {
@@ -356,7 +355,7 @@ header a {
 }
 
 .card-text-wrap-pop p {
-  height: 55%;
+  height: 50%;
 }
 
 .card-text-wrap-pop {
@@ -376,11 +375,20 @@ header a {
 
 .activ-card {
   display: block;
+  width: 20%;
   padding: 0;
   border-radius: 15px;
   background-color: white;
   box-shadow: 2px 2px 5px gray;
   margin: 0;
+}
+
+.activ-wrap-stack {
+  width: 20%;
+}
+
+.activ-wrap-stack .activ-card {
+  width: 100%;
 }
 
 .activ-card-wrap {
@@ -393,18 +401,20 @@ header a {
   justify-content: space-between;
 }
 
-.activ-tall img {
-  width: 265px;
+.activ-tall {
+  width: 100%; 
+  object-fit: cover;
   height: 365px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 
-.activ-small img{
+.activ-small {
   height: 160px;
-  width: 285px;
+  object-fit: cover;
+  width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin: 0;
@@ -415,12 +425,27 @@ header a {
   text-decoration: none;
 }
 .activ h3 {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   margin-left: 15px;
 }
 .activ img:hover {
   filter: brightness(95%);
   color: black;
+}
+
+#activ-card-2,
+#activ-card-5 {
+  margin-bottom: 35px;
+}
+
+#img-3 {
+  object-position: top;
+  height: 120px;
+}
+
+#img-5 {
+  object-position: top;
+  height: 140px;
 }
 
 /*-- FOOTER--*/
