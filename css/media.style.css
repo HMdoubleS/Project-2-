@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     * {
         font-family: "Raleway", sans-serif;
     }
@@ -9,14 +9,23 @@ nav {
     flex-direction: column;
     flex-wrap: nowrap;
     }
-
+nav a {
+    justify-content: space-around;
+}
 
 .pop-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
-    margin: 0;
+    margin-left: 15px;
    }
+
+.pop-card {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}   
 
 .accom {
     display: flex;
@@ -33,8 +42,22 @@ nav {
     flex-wrap: wrap;
  }
 
-.activ-card-wrap {
+.activ-wrap-stack {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
  }
+
+.activ a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 15px;
+ }
+
 }
 
