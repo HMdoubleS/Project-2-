@@ -420,7 +420,7 @@ header a {
 .activ-tall {
   width: 100%; 
   object-fit: cover;
-  height: 365px;
+  height: 335px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin: 0;
@@ -428,7 +428,7 @@ header a {
 }
 
 .activ-small {
-  height: 160px;
+  height: 140px;
   object-fit: cover;
   width: 100%;
   border-top-left-radius: 15px;
@@ -449,19 +449,28 @@ header a {
   color: black;
 }
 
+.activ-title-card {
+  text-align: left;
+  font-size: 18px;
+}
+
+
 #activ-card-2,
 #activ-card-5 {
   margin-bottom: 35px;
 }
+#img-2 {
+  /* height: 130px; */
+}
 
 #img-3 {
   object-position: top;
-  height: 120px;
+  /* height: 150px; */
 }
 
 #img-5 {
   object-position: top;
-  height: 140px;
+  /* height: 140px; */
 }
 
 /*-- FOOTER--*/

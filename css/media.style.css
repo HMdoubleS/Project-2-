@@ -9,8 +9,49 @@ nav {
     flex-direction: column;
     flex-wrap: nowrap;
     }
+
 nav a {
     justify-content: space-around;
+}
+.search h2 {
+    font-size: 20px;
+}
+
+.filters { 
+    flex-direction: column;
+}
+
+.filters button {
+    margin-top: 10px;
+}
+
+.filters h2 {
+    margin-bottom: 10px;
+}
+
+.filter-wrap {
+   flex-wrap: wrap; 
+}
+
+.filter-wrap button:nth-child(1) {
+    order: 1;
+}
+
+.filter-wrap button:nth-child(2) {
+    order: 3;
+}
+
+.filter-wrap button:nth-child(3) {
+    order: 2;
+}
+
+.filter-wrap button:nth-child(4) {
+    order: 4;
+}
+
+.info p {
+    width: 80%;
+    font-size: 13.5px;
 }
 
 .pop-wrap {
@@ -21,6 +62,9 @@ nav a {
     margin-left: 15px;
    }
 
+#au-coer {
+    font-size: 13.3px;
+}
 .pop-card {
     width: 100%;
     margin-left: 10px;
@@ -33,6 +77,7 @@ nav a {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 10px;
  }
 
 .accom-card {
@@ -40,6 +85,8 @@ nav a {
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
  }
 
 .activ-wrap-stack {
@@ -58,6 +105,14 @@ nav a {
     width: 100%;
     margin-bottom: 15px;
  }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
 
 }
 
