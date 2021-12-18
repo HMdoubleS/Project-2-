@@ -169,13 +169,13 @@ header a {
   margin-right: 10px;
   text-align: center;
   vertical-align: top;
-  margin-bottom: 10px;
+  /* margin-bottom: 40px; */
   padding: 3px;
 }
 
 .info-text {
   display: inline-block;
-  width: 36%;
+  width: 33%;
   flex-wrap: wrap;
 }
 
@@ -203,7 +203,7 @@ header a {
   margin-left: 15px;
   padding: 15px;
   width: 60%;
-  outline: 4px solid blue;
+  /* outline: 4px solid blue; */
 }
 
 .accom h2 {
@@ -230,21 +230,37 @@ header a {
   margin-top: 15px;
   padding: 8px;
   width: 32%;
-  height: 12rem;
+  height: auto;
+  object-fit: cover;
   margin-bottom: 10px;
   box-sizing: border-box;
   box-shadow: 2px 2px 5px gray;
 }
+#la-mer {
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#amina {
+  object-fit: cover;
+  object-position: left;
+}
 
 .accom-card img {
   width: 100%;
-  height: 6em;
+  height: 8em;
   object-fit: cover;
-  /* object-position: 0 -40px; */
+  object-position: top;
   padding: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.rating-a {
+  height: 5%;
+  /* outline: 3px solid blue; */
+}
+
 
 .accom-card img:hover {
   filter: brightness(95%);

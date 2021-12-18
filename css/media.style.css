@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     * {
         font-family: "Raleway", sans-serif;
     }
@@ -13,6 +13,7 @@ nav {
 nav a {
     justify-content: space-around;
 }
+
 .search h2 {
     font-size: 20px;
 }
@@ -54,6 +55,44 @@ nav a {
     font-size: 13.5px;
 }
 
+.search h2 {
+    font-size: 20px;
+}
+
+.filters {
+    flex-direction: column;
+}
+
+.filters button {
+    margin-top: 10px;
+}
+
+.filters h2 {
+    margin-bottom: 10px;
+}
+
+.filter-wrap {
+    flex-wrap: wrap;
+}
+
+.filter-wrap button:nth-child(1) {
+    order: 1;
+}
+.filter-wrap button:nth-child(2) {
+    order: 3;
+}
+.filter-wrap button:nth-child(3) {
+    order: 2;
+}
+.filter-wrap button:nth-child(4) {
+    order: 4;
+}
+
+.info p {
+    font-size: 13.5px;
+    width: 80%;
+}
+
 .pop-wrap {
     display: flex;
     flex-direction: column;
@@ -65,6 +104,7 @@ nav a {
 #au-coer {
     font-size: 13.3px;
 }
+
 .pop-card {
     width: 100%;
     margin-left: 10px;
@@ -111,8 +151,8 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-
 }
+
 
 }
 
