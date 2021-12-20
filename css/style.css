@@ -23,6 +23,7 @@ header nav {
   padding: 0 20px;
   margin-top: 0;
 }
+
 .logo {
   width: 100%;
   min-height: 10px;
@@ -47,9 +48,12 @@ header a {
 #sign-up {
   color:#0065fc;
   font-weight: bold;
+  margin-right: 20px;
 }
 .nav-item-1 {
+  margin-top: 15px;
   margin-right: 50%;
+  margin-left: 10px;
 }
 
 /*-- SEARCH--*/
@@ -58,19 +62,26 @@ header a {
   padding-bottom: 30px;
   }
 
-
 .search {
-  padding-left: 20px;
-  padding-top: 20px;
+  margin-left: 25px;
+  margin-top: 25px;
 }
+
 .search p{
-  margin-top:10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
+
+.search h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
 .search-bar {
   display: flex;
   height: 40px;
   margin-bottom: 15px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .search-bar i {
@@ -87,6 +98,7 @@ header a {
 .search-bar input {
   border: 1px solid lightgray;
   padding: 9px;
+  font-weight: bold;
 }
 
 .search-bar button {
@@ -124,16 +136,19 @@ header a {
 }
 
 .filters button {
-  border: 2px solid lightgray;
+  border: 1px solid lightgray;
   /* min-width: 120px; */
   margin-right: 25px;
   border-radius: 25px;
-  padding-right: 10px;
   align-items: center;
   display: flex;
   flex-direction: row;
   font-weight: bold;
+  background-color: white;
   }
+.filters span {
+  padding: 10px 10px 10px 5px;
+}
 
 .filters button:hover {
   background-color: #deebff;
@@ -142,10 +157,10 @@ header a {
 .filters i {
   background-color: #deebff;
   color: #0065FC;
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
-  padding-top: 7px;
+  padding-top: 10.75px;
 }
 
 .filters h2 {
@@ -201,7 +216,7 @@ header a {
   border-radius: 15px;
   margin-left: 15px;
   padding: 15px;
-  width: 60%;
+  width: 65%;
   /* outline: 4px solid blue; */
 }
 
@@ -247,9 +262,9 @@ header a {
 
 .accom-card img {
   width: 100%;
-  height: 8em;
+  height: 105px;
   object-fit: cover;
-  object-position: top;
+  /* object-position: top; */
   padding: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -273,8 +288,17 @@ header a {
 
 .card-text-wrap {
   margin-left: 8px;
-  
 }
+
+.card-text-wrap h3 {
+  font-size: 16px;
+}
+
+.card-text-wrap p {
+  margin-bottom: 5px;
+  font-size: 14.6px;
+}
+
 
 .show-more {
   display: inline-block;
@@ -291,7 +315,7 @@ header a {
 
 .pop-wrap {
   display: inline-block;
-  width: 35%;
+  width: 30%;
   background-color: lightgray;
   border-radius: 15px;
   padding: 20px;
@@ -335,7 +359,7 @@ header a {
 .pop-image {
   width: 45%;
   object-fit: cover;
-  height: 10em; 
+  height: 125px; 
   flex: none;
   border-radius: 10px 0 0 10px;
 }
@@ -350,23 +374,23 @@ header a {
 }
 
 .text-wrap-pop {
-  padding-top: 10px;
+  padding-top: 8px;
   justify-content: space-evenly;
   width: 55%;
   margin-left: 10px;
 }
 .text-wrap-pop h3 {
-  height: 40%;
-  font-size: 14px;
+  height: 35%;
+  font-size: 15px;
 }
 
 .text-wrap-pop div {
-  height: 20%;
+  height: 17%;
 }
 
 .text-wrap-pop p {
-  font-size: 15.3px;
-  height: 40%;
+  font-size: 14.5px;
+  height: 48%;
 }
 
 .text-bold {
@@ -375,21 +399,23 @@ header a {
 
 .card-text-wrap-pop h3 {
   height:30%;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .card-text-wrap-pop div {
-  height:20%;
+  height:10%;
 }
 
 .card-text-wrap-pop p {
-  height: 50%;
+  height: 55%;
+  font-size: 14.8px;
+  padding-top: 5px;
 }
 
 .card-text-wrap-pop {
   justify-content: space-evenly;
   width: 55%;
-  padding-top: 10px;
+  padding-top: 5px;
   margin-left: 10px;
 }
 
@@ -435,7 +461,7 @@ header a {
 .activ-tall {
   width: 100%; 
   object-fit: cover;
-  height: 315px;
+  height: 323px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin: 0;
@@ -450,7 +476,9 @@ header a {
   margin: 0;
   padding: 0;
 }
-
+.activ-title-card {
+  padding: 12px 0;
+}
 .activ a {
   text-decoration: none;
 }
@@ -484,11 +512,11 @@ header a {
 
 #img-5 {
   object-position: top;
-  height: 135 px;
+  height: 100 px;
 }
 
 #img-6 {
-  height: 120px;
+  height: 100px;
 }
 
 /*-- FOOTER--*/
