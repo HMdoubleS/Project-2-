@@ -125,9 +125,7 @@ header a {
 
 .filters {
   display:flex;
-  /* flex-direction: row; */
   padding-left: 20px; 
-  /* text-align: center; */
   }
 
 .filter-wrap {
@@ -137,7 +135,6 @@ header a {
 
 .filters button {
   border: 1px solid lightgray;
-  /* min-width: 120px; */
   margin-right: 25px;
   border-radius: 25px;
   align-items: center;
@@ -146,6 +143,7 @@ header a {
   font-weight: bold;
   background-color: white;
   }
+
 .filters span {
   padding: 10px 10px 10px 5px;
 }
@@ -165,10 +163,12 @@ header a {
 
 .filters h2 {
   margin-right: 25px;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 15px; 
   font-weight: bold;
   justify-content: center;
+  margin-left: 15px;
+  /* outline: 3px solid blue; */
 }
 
 /*-- INFO--*/
@@ -181,9 +181,9 @@ header a {
   height: 25px;
   width: 25px;
   margin-right: 10px;
+  margin-left: 15px;
   text-align: center;
   vertical-align: top;
-  /* margin-bottom: 40px; */
   padding: 3px;
 }
 
@@ -214,10 +214,9 @@ header a {
   justify-content: start;
   background-color: lightgray;
   border-radius: 15px;
-  margin-left: 15px;
-  padding: 15px;
+  margin-left: 28px;
+  padding: 25px 15px;
   width: 65%;
-  /* outline: 4px solid blue; */
 }
 
 .accom h2 {
@@ -242,14 +241,23 @@ header a {
   background-color: white;
   border-radius: 15px;
   margin-top: 15px;
-  padding: 8px;
-  width: 32%;
+  padding: 3px;
+  width: 28%;
   height: auto;
   object-fit: cover;
   margin-bottom: 10px;
   box-sizing: border-box;
   box-shadow: 2px 2px 5px gray;
 }
+
+#accom-card-1 {
+  margin-left: 10px;
+}
+
+#accom-card-3 {
+  margin-right: 10px;
+}
+
 #la-mer {
   object-fit: cover;
   object-position: bottom;
@@ -264,17 +272,20 @@ header a {
   width: 100%;
   height: 105px;
   object-fit: cover;
-  /* object-position: top; */
   padding: 0;
+  margin: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 .rating-a {
-  height: 5%;
-  /* outline: 3px solid blue; */
+  margin-bottom: 5px;
 }
 
+.accom-card i {
+  height: 3px;
+  width: 12.7px;
+}
 
 .accom-card img:hover {
   filter: brightness(95%);
@@ -291,12 +302,12 @@ header a {
 }
 
 .card-text-wrap h3 {
-  font-size: 16px;
+  font-size: 14.6px;
 }
 
 .card-text-wrap p {
-  margin-bottom: 5px;
-  font-size: 14.6px;
+  margin: 5px 0;
+  font-size: 13.6px;
 }
 
 
@@ -305,7 +316,7 @@ header a {
   background-color: lightgray;
   border: none;
   justify-content: left;
-  padding-top: 15px;
+  padding-top: 25px;
   margin-bottom: 10px;
   font-weight: 700;
   margin-left: 15px;
@@ -315,11 +326,11 @@ header a {
 
 .pop-wrap {
   display: inline-block;
-  width: 30%;
+  width: 28%;
   background-color: lightgray;
   border-radius: 15px;
-  padding: 20px;
-  margin-right: 15px;
+  padding: 25px 15px;
+  margin-right: 28px;
 }
 
 .pop-heading {
@@ -335,6 +346,7 @@ header a {
 
 .pop-heading i {
   display: inline-block;
+  margin-right: 5px;
 }
 
 .pop-card {
@@ -342,12 +354,9 @@ header a {
   background-color: white;
   border-radius: 15px;
   padding: 5px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 20px;
+  margin: 15px 0 10px 15px;
   width: 93%;
   box-shadow: 2px 2px 5px gray;
-
 }
 
 .pop-card a {
@@ -357,7 +366,7 @@ header a {
 }
 
 .pop-image {
-  width: 45%;
+  width: 40%;
   object-fit: cover;
   height: 125px; 
   flex: none;
@@ -428,6 +437,7 @@ header a {
 .activ {
   border-radius: 15px;
   padding: 20px;
+  margin: 15px;
 }
 
 .activ-card {
@@ -441,7 +451,7 @@ header a {
 }
 
 .activ-wrap-stack {
-  width: 20%;
+  width: 23%;
 }
 
 .activ-wrap-stack .activ-card {
@@ -461,7 +471,7 @@ header a {
 .activ-tall {
   width: 100%; 
   object-fit: cover;
-  height: 323px;
+  height: 333px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin: 0;
@@ -476,16 +486,11 @@ header a {
   margin: 0;
   padding: 0;
 }
-.activ-title-card {
-  padding: 12px 0;
-}
+
 .activ a {
   text-decoration: none;
 }
-.activ h3 {
-  padding-bottom: 5px;
-  margin-left: 15px;
-}
+
 .activ img:hover {
   filter: brightness(95%);
   color: black;
@@ -494,6 +499,8 @@ header a {
 .activ-title-card {
   text-align: left;
   font-size: 16px;
+  margin-left: 15px;
+  padding: 12px 0;
 }
 
 #activ-card-2,
@@ -512,7 +519,7 @@ header a {
 
 #img-5 {
   object-position: top;
-  height: 100 px;
+  height: 150px;
 }
 
 #img-6 {
@@ -526,10 +533,10 @@ footer {
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
+  margin: 15px;
   justify-content: space-between;
-  
- 
 }
+
 #footer-1 {
   display: inline-block;
   margin-left: 20px;
