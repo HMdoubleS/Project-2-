@@ -3,14 +3,41 @@
         font-family: "Raleway", sans-serif;
     }
 
-
-
-
-
-
-
-
-
-
+    /*-- NAVIGATION--*/
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        }
     
+    nav a {
+        justify-content: space-around;
+    }
+
+    /*-- ACCOMMODATIONS--*/
+    .card-text-wrap h3 {
+        font-size: 13px;
+      }
+
+    .card-text-wrap p {
+        font-size: 12px;
+    }
+
+    /*-- POPULAR--*/
+
+    .text-wrap-pop h3 {
+        height: 35%;
+        font-size: 11px;
+    }
+    .text-wrap-pop p {
+        font-size: 12px;
+        height: 48%;
+    }
+    .pop-image {
+        width: 46%;
+        /* object-fit: cover; */
+        /* height: 125px;  */
+        /* flex: none; */
+        /* border-radius: 10px 0 0 10px; */
+    }
 }

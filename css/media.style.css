@@ -29,10 +29,12 @@ nav a {
     padding-bottom: 25px;
 }
 
+/*-- SEARCH--*/
 .search h2 {
     font-size: 20px;
 }
 
+/*-- FILTERS--*/
 .filters { 
     flex-direction: column;
 }
@@ -65,15 +67,13 @@ nav a {
     order: 4;
 }
 
+/*-- INFO--*/
 .info p {
     width: 80%;
     font-size: 13.5px;
 }
 
-.search h2 {
-    font-size: 20px;
-}
-
+/*-- POPULAR--*/
 .pop-wrap {
     display: flex;
     flex-direction: column;
@@ -97,6 +97,7 @@ nav a {
     flex-direction: column-reverse;
 }
 
+/*-- ACCOMMODATION--*/
 .accom {
     display: flex;
     justify-content: center;
@@ -115,6 +116,7 @@ nav a {
     margin-left: 10px;
  }
 
+/*-- ACTIVITIES--*/
 .activ-wrap-stack {
     display: flex;
     justify-content: center;
@@ -131,7 +133,8 @@ nav a {
     width: 100%;
     margin-bottom: 15px;
  }
-
+ 
+/*-- FOOTER--*/
 footer {
     display: flex;
     flex-direction: column;

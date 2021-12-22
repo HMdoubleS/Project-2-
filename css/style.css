@@ -61,10 +61,6 @@ header a {
 
 /*-- SEARCH--*/
 
-.search p {
-  padding-bottom: 30px;
-  }
-
 .search {
   margin-left: 25px;
   margin-top: 25px;
@@ -73,6 +69,8 @@ header a {
 .search p{
   margin-top: 10px;
   margin-left: 10px;
+  padding-bottom: 30px;
+  font-size: 15px;
 }
 
 .search h2 {
@@ -83,7 +81,7 @@ header a {
 .search-bar {
   display: flex;
   height: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   margin-left: 30px;
 }
 
@@ -143,12 +141,13 @@ header a {
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-weight: bold;
+  font-weight: bold; 
   background-color: white;
   }
 
 .filters span {
   padding: 10px 20px 10px 10px;
+  font-size: 12px;
 }
 
 .filters button:hover {
@@ -166,12 +165,11 @@ header a {
 
 .filters h2 {
   margin-right: 25px;
-  margin-top: 10px;
-  font-size: 15px; 
+  margin-top: 12px;
+  font-size: 13px; 
   font-weight: bold;
   justify-content: center;
   margin-left: 15px;
-  /* outline: 3px solid blue; */
 }
 
 /*-- INFO--*/
@@ -192,7 +190,8 @@ header a {
 
 .info-text {
   display: inline-block;
-  width: 33%;
+  width: 40%;
+  font-size: 15px;
   flex-wrap: wrap;
 }
 
@@ -219,11 +218,12 @@ header a {
   border-radius: 15px;
   margin-left: 28px;
   padding: 25px 15px;
-  width: 65%;
+  width: 60%;
 }
 
 .accom h2 {
   margin-left: 15px;
+  font-size: 17px;
 }
 
 .accom-card-wrap {
@@ -233,11 +233,11 @@ header a {
 }
 
 .blue-star {
-  color: #0065fc
+  color: #0065fc;
 }
 
 .gray-star {
-  color: #a4a29b
+  color: #a4a29b;
 }
 
 .accom-card {
@@ -247,10 +247,10 @@ header a {
   padding: 3px;
   width: 28%;
   height: auto;
-  object-fit: cover;
+  /* object-fit: cover; */
   margin-bottom: 10px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 5px gray;
+  /* box-sizing: border-box; */
+  box-shadow: 5px 5px 2px gray;
 }
 
 #accom-card-1,
@@ -285,11 +285,10 @@ header a {
 }
 
 .rating-a {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .accom-card i {
-  height: 3px;
   width: 14px;
 }
 
@@ -308,12 +307,12 @@ header a {
 }
 
 .card-text-wrap h3 {
-  font-size: 14.6px;
+  font-size: 11px;
 }
 
 .card-text-wrap p {
   margin: 5px 0;
-  font-size: 13.6px;
+  font-size: 10px;
 }
 
 .show-more {
@@ -331,11 +330,11 @@ header a {
 
 .pop-wrap {
   display: inline-block;
-  width: 28%;
+  width: 33%;
   background-color: lightgray;
   border-radius: 15px;
   padding: 25px 15px;
-  margin-right: 28px;
+  margin-right: 25px;
 }
 
 .pop-heading {
@@ -347,6 +346,7 @@ header a {
   display: inline-block;
   margin-left: 15px;
   margin-bottom: 10px;
+  font-size: 17px;
 }
 
 .pop-heading i {
@@ -354,14 +354,19 @@ header a {
   margin-right: 5px;
 }
 
+.pop-card i {
+  width: 14px;
+}
+
 .pop-card {
   display: flex;
   background-color: white;
   border-radius: 15px;
   padding: 5px;
-  margin: 15px 0 10px 15px;
-  width: 93%;
-  box-shadow: 2px 2px 5px gray;
+  margin-top: 15px;
+  margin-left: 8px;
+  width: 95%;
+  box-shadow: 5px 5px 2px gray;
 }
 
 .pop-card a {
@@ -395,7 +400,7 @@ header a {
 }
 .text-wrap-pop h3 {
   height: 35%;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .text-wrap-pop div {
@@ -403,17 +408,22 @@ header a {
 }
 
 .text-wrap-pop p {
-  font-size: 14.5px;
+  font-size: 11.9px;
   height: 48%;
 }
 
 .text-bold {
   font-weight: bold;
 }
-
+.card-text-wrap-pop {
+  justify-content: space-evenly;
+  width: 55%;
+  padding-top: 5px;
+  margin-left: 10px;
+}
 .card-text-wrap-pop h3 {
   height:30%;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .card-text-wrap-pop div {
@@ -422,19 +432,12 @@ header a {
 
 .card-text-wrap-pop p {
   height: 55%;
-  font-size: 14.8px;
+  font-size: 11.9px;
   padding-top: 5px;
-}
-
-.card-text-wrap-pop {
-  justify-content: space-evenly;
-  width: 55%;
-  padding-top: 5px;
-  margin-left: 10px;
 }
 
 #au-coer {
-  font-size: 15px;
+  font-size: 11.5px;
 }
 
 
@@ -445,13 +448,17 @@ header a {
   margin: 15px;
 }
 
+.activ-title {
+  font-size: 17px;
+}
+
 .activ-card {
   display: block;
   width: 20%;
   padding: 0;
   border-radius: 15px;
   background-color: white;
-  box-shadow: 2px 2px 5px gray;
+  box-shadow: 2px 2px 3px gray;
   margin: 0;
 }
 
@@ -503,7 +510,7 @@ header a {
 
 .activ-title-card {
   text-align: left;
-  font-size: 16px;
+  font-size: 13px;
   margin-left: 15px;
   padding: 12px 0;
 }
@@ -524,11 +531,11 @@ header a {
 
 #img-5 {
   object-position: top;
-  height: 150px;
+  height: 100px;
 }
 
 #img-6 {
-  height: 100px;
+  height: 150px;
 }
 
 /*-- FOOTER--*/
@@ -562,6 +569,7 @@ footer {
 
 footer h3 {
   padding: 0;
+  font-size: 17px;
 }
 
 footer a {
@@ -570,6 +578,7 @@ footer a {
 
 ul {
   list-style-type: none;
+  font-size: 14px;
   margin: 15px 0 15px 0;
   padding: 0;
 }
