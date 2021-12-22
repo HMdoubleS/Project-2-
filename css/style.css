@@ -127,7 +127,7 @@ header a {
 .filters {
   display:flex;
   padding-left: 20px; 
-  }
+}
 
 .filter-wrap {
   display: flex;
@@ -143,7 +143,7 @@ header a {
   flex-direction: row;
   font-weight: bold; 
   background-color: white;
-  }
+}
 
 .filters span {
   padding: 10px 20px 10px 10px;
@@ -159,6 +159,7 @@ header a {
   color: #0065FC;
   height: 35px;
   width: 35px;
+  font-size: 16px;
   border-radius: 50%;
   padding-top: 10.75px;
 }
@@ -282,12 +283,9 @@ header a {
   border-top-right-radius: 15px;
 }
 
-.rating-a {
+.rating {
   margin-bottom: 3px;
-}
-
-.accom-card i {
-  width: 14px;
+  font-size: 10px;
 }
 
 .accom-card img:hover {
@@ -352,10 +350,6 @@ header a {
   margin-right: 5px;
 }
 
-.pop-card i {
-  width: 14px;
-}
-
 .pop-card {
   display: flex;
   background-color: white;
@@ -413,19 +407,21 @@ header a {
 .text-bold {
   font-weight: bold;
 }
+
 .card-text-wrap-pop {
   justify-content: space-evenly;
-  width: 55%;
+  width: 57%;
   padding-top: 5px;
   margin-left: 10px;
 }
+
 .card-text-wrap-pop h3 {
-  height:30%;
+  height: 30%;
   font-size: 13px;
 }
 
 .card-text-wrap-pop div {
-  height:10%;
+  height: 8%;
 }
 
 .card-text-wrap-pop p {
