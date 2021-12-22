@@ -1,8 +1,12 @@
 @media screen and (max-width: 768px) {
     * {
         font-family: "Raleway", sans-serif;
+        margin: 0;
     }
 
+body {
+    margin: 0;
+}
 
 nav {
     display: flex;
@@ -41,10 +45,12 @@ nav a {
 
 .filters button {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .filters h2 {
     margin-bottom: 10px;
+    font-size: 17px;
 }
 
 .filter-wrap {
@@ -74,22 +80,40 @@ nav a {
 }
 
 /*-- POPULAR--*/
+.pop-heading h2 {
+    font-size: 20px;
+}
+
 .pop-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     margin: 0 10px 10px 10px;
-   }
+}
+
+.text-wrap-pop h3 {
+    font-size: 15px;
+}
+.text-wrap-pop p {
+    font-size: 13px;
+}
 
 #au-coer {
-    font-size: 13.3px;
+    font-size: 14px;
+}
+
+.card-text-wrap-pop h3 {
+    font-size: 15px;
+}
+
+.card-text-wrap-pop p {
+    font-size: 13px;
 }
 
 .pop-card {
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 95%;
+    box-shadow: none;
 }   
 
 .accom-pop {
@@ -105,7 +129,12 @@ nav a {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 10px 10px 10px;
+    background-color: #EFEFEF;
  }
+
+.accom h2 {
+    font-size: 20px;
+}
 
 .accom-card {
     display: flex;
@@ -114,9 +143,26 @@ nav a {
     flex-wrap: wrap;
     margin-right: 10px;
     margin-left: 10px;
+    box-shadow: none;
+ }
+.card-text-wrap h3 {
+    font-size: 15px;
+}
+
+.card-text-wrap p {
+    font-size: 13px;
+}
+
+.show-more {
+    background-color: #EFEFEF;
+    margin-right: 70%;
+    font-size: 15px;
  }
 
 /*-- ACTIVITIES--*/
+.activ {
+    width: 100%;
+}
 .activ-wrap-stack {
     display: flex;
     justify-content: center;
@@ -125,6 +171,14 @@ nav a {
     width: 100%;
  }
 
+.activ-card-wrap {
+    width: 95%;
+}
+
+.activ-title {
+    font-size: 20px;
+}
+
 .activ a {
     display: flex;
     justify-content: center;
@@ -132,16 +186,48 @@ nav a {
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 15px;
- }
- 
+}
+#img-2 {
+    height: 135px;
+}
+  
+#img-3 {
+    height: 135px;
+}
+
+.activ-tall {
+    height: 135px;
+}
+#img-5 {
+    height: 135px;
+}
+
+#img-6 {
+    height: 135px;
+}
+
+.activ-title-card {
+    font-size: 16px;
+}
+
 /*-- FOOTER--*/
 footer {
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    margin: 0;
     width: 100%;
 }
 
+footer h3 {
+    padding: 0;
+    font-size: 20px;
+} 
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+}
 
 }
 

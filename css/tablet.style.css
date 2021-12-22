@@ -35,9 +35,6 @@
     }
     .pop-image {
         width: 46%;
-        /* object-fit: cover; */
-        /* height: 125px;  */
-        /* flex: none; */
-        /* border-radius: 10px 0 0 10px; */
     }
+
 }
