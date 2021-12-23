@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 767px) {
     * {
         font-family: "Raleway", sans-serif;
     }
@@ -15,6 +15,10 @@
     }
 
     /*-- ACCOMMODATIONS--*/
+    .accom {
+        width: 63%;
+    }
+
     .card-text-wrap h3 {
         font-size: 11px;
     }
@@ -25,10 +29,10 @@
 
     /*-- POPULAR--*/
     .pop-wrap {
-        margin-right: 15px;
+        margin-right: 25px;
     }
     .pop-card {
-        width: 99%
+        width: 99%;
         margin-left: 0;
     }
 
@@ -46,18 +50,22 @@
     }
 
     .card-text-wrap-pop p {
-        height: 55%;
         font-size: 12px;
         padding-top: 5px;
     }
 
-    .card-text-wrap-pop div {
-        height: 15%;
+    #pop-rating {
+        /* margin-bottom: 8px; */
     }
+    .card-text-wrap-pop div {
+        height: %;
+    }
+     
 
     #au-coer {
         font-size: 11px;
     }
+
     .pop-image {
         width: 46%;
     }
