@@ -275,7 +275,7 @@ header a {
 
 .accom-card img {
   width: 100%;
-  height: 105px;
+  height: 95px;
   object-fit: cover;
   padding: 0;
   margin: 0;
@@ -322,6 +322,9 @@ header a {
   margin-left: 15px;
 }
 
+.show-more:hover {
+  color: #0065fc;
+}
 /*-- POPULAR--*/
 
 .pop-wrap {
