@@ -16,25 +16,55 @@
 
     /*-- ACCOMMODATIONS--*/
     .card-text-wrap h3 {
-        font-size: 13px;
-      }
+        font-size: 11px;
+    }
 
     .card-text-wrap p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     /*-- POPULAR--*/
+    .pop-wrap {
+        margin-right: 15px;
+    }
+    .pop-card {
+        width: 99%
+        margin-left: 0;
+    }
 
     .text-wrap-pop h3 {
-        height: 35%;
-        font-size: 11px;
+        font-size: 12px;
     }
+
     .text-wrap-pop p {
         font-size: 12px;
-        height: 48%;
+    }
+
+    .card-text-wrap-pop h3 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card-text-wrap-pop p {
+        height: 55%;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .card-text-wrap-pop div {
+        height: 15%;
+    }
+
+    #au-coer {
+        font-size: 11px;
     }
     .pop-image {
         width: 46%;
     }
+
+/*-- ACTIVITIES--*/
+.activ-title-card {
+    font-size: 11.5px;
+}
 
 }
