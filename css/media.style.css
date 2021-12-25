@@ -84,17 +84,24 @@ nav a {
     font-size: 20px;
 }
 
+.pop-inner {
+    max-width: 767px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
 .pop-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin: 0 10px 10px 10px;
+    margin-bottom: 10px;
 }
 
 .text-wrap-pop h3 {
     font-size: 15px;
 }
+
 .text-wrap-pop p {
     font-size: 13px;
 }
@@ -128,10 +135,14 @@ nav a {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 10px 0;
     background-color: #EFEFEF;
  }
-
+.accom-inner {
+    max-width: 767px;
+    background-color: #EFEFEF;
+    margin: 0 auto;
+}
 .accom h2 {
     font-size: 20px;
 }
@@ -155,7 +166,7 @@ nav a {
 
 .show-more {
     background-color: #EFEFEF;
-    margin-right: 70%;
+    margin-right: 100px;
     font-size: 15px;
  }
 
