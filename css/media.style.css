@@ -84,18 +84,14 @@ nav a {
     font-size: 20px;
 }
 
-.pop-inner {
-    max-width: 767px;
-    background-color: lightgray;
-    margin: 0 auto;
-}
-
 .pop-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    background-color: #EFEFEF;
     margin-bottom: 10px;
+    border-radius: unset;
 }
 
 .text-wrap-pop h3 {
@@ -131,31 +127,36 @@ nav a {
 /*-- ACCOMMODATION--*/
 .accom {
     display: flex;
-    justify-content: center;
+    justify-content: unset;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    border-radius: unset;
     margin: 0 10px 10px 0;
-    background-color: #EFEFEF;
- }
-.accom-inner {
-    max-width: 767px;
-    background-color: #EFEFEF;
-    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
 }
+ 
 .accom h2 {
     font-size: 20px;
 }
 
 .accom-card {
     display: flex;
-    width: 100%;
+    width: 94%;
     flex-direction: column;
     flex-wrap: wrap;
     margin-right: 10px;
     margin-left: 10px;
-    box-shadow: none;
- }
+}
+#accom-card-1 {
+    margin-left: 5px;
+}
+
+#accom-card-3,
+#accom-card-6 {
+    margin-right: 0px;
+}
 .card-text-wrap h3 {
     font-size: 15px;
 }
@@ -165,29 +166,35 @@ nav a {
 }
 
 .show-more {
-    background-color: #EFEFEF;
-    margin-right: 100px;
+    background-color: white;
+    margin-right: 70%;
     font-size: 15px;
- }
+}
 
 /*-- ACTIVITIES--*/
 .activ {
     width: 100%;
+    padding: 10px;
+    border-radius: unset;
 }
-.activ-wrap-stack {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
- }
-
-.activ-card-wrap {
-    width: 95%;
-}
-
 .activ-title {
     font-size: 20px;
+    margin-left: 15px;
+}
+
+.activ-wrap-stack {
+    width: 100%;
+}
+
+.activ-card-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    background-color: white;
+    justify-content: space-between;
+    width: 94%;
 }
 
 .activ a {
@@ -198,23 +205,25 @@ nav a {
     width: 100%;
     margin-bottom: 15px;
 }
+
 #img-2 {
-    height: 135px;
+    height: 125px;
 }
   
 #img-3 {
-    height: 135px;
+    height: 125px;
 }
 
 .activ-tall {
-    height: 135px;
+    height: 125px;
 }
+
 #img-5 {
-    height: 135px;
+    height: 125px;
 }
 
 #img-6 {
-    height: 135px;
+    height: 125px;
 }
 
 .activ-title-card {
@@ -225,9 +234,15 @@ nav a {
 footer {
     background-color: lightgrey;
     display: flex;
+    align-items: unset;
     flex-direction: column;
     margin: 0;
     width: 100%;
+    padding-left: 40px;
+}
+
+#footer-1 {
+    margin-left: 0;
 }
 
 footer h3 {

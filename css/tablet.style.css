@@ -15,8 +15,54 @@
     }
 
     /*-- ACCOMMODATIONS--*/
+    .accom-pop {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .accom {
-        width: 63%;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+        border-radius: unset;
+        padding-right: 25px;
+    }
+    .accom h2 {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .accom-card { 
+        width: 43%;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    #accom-card-1 {
+        margin-left: 25px;
+    }
+
+    #accom-card-4 {
+        margin-left: 50px;
+    }
+
+    #accom-card-3,
+    #accom-card-6 {
+        margin-right: 0px;
+    }
+
+    .accom-card-wrap {
+        display: flex;
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+
+    #amina {
+        object-position: unset;
+    }
+    
+    #la-mer {
+        object-position: unset;
     }
 
     .card-text-wrap h3 {
@@ -27,15 +73,50 @@
         font-size: 10px;
     }
 
+    .show-more {
+        margin-left: 28px;
+    }
+
     /*-- POPULAR--*/
     .pop-wrap {
-        margin-right: 25px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        border-radius: unset;
+        width: 100%;
     }
+
+    .pop-heading {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .pop-heading h2 {
+        /* display: unset; */
+        font-size: 20px;
+        margin-left: 25px;
+
+    }
+
     .pop-card {
-        width: 99%;
-        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 25%;
+        margin-left: 25px;
     }
-    
+
+    .pop-heading i {
+        margin-right: 45%;
+        margin-left: 16px;
+    }
+
+    .pop-card a {
+        display: unset;
+        text-decoration: none;
+        color: black; 
+    }
+
     .text-wrap-pop h3 {
         font-size: 12px;
     }
@@ -53,10 +134,6 @@
         font-size: 12px;
         padding-top: 5px;
     }
-
-    #pop-rating {
-        /* margin-bottom: 8px; */
-    }
      
     #au-coer {
         font-size: 11px;
@@ -66,9 +143,28 @@
         width: 46%;
     }
 
-/*-- ACTIVITIES--*/
-.activ-title-card {
-    font-size: 11.5px;
-}
+    /*-- ACTIVITIES--*/
+    .activ-title-card {
+        font-size: 11.5px;
+    }
 
+    .activ-card {
+         width: 40%;
+    }
+
+    .activ-wrap-stack {
+        width: 45%;
+    }
+
+    #activ-card-2 {
+        margin-bottom: 15px;
+    }
+
+    #activ-card-1  {
+        margin-bottom: 20px;
+    }
+    #img-3 {
+        object-position: unset;
+        height: 90px;
+    }
 }
