@@ -16,19 +16,22 @@
 
     /*-- ACCOMMODATIONS--*/
     .accom-pop {
-        display: flex;
-        flex-direction: row-reverse;
+        /* display: flex; */
+        justify-content: unset;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
     }
 
     .accom {
         width: 100%;
         margin-left: 0;
         margin-bottom: 20px;
+        margin-top: 10px;
         border-radius: unset;
-        padding-right: 25px;
+        padding-right: 20px;
     }
     .accom h2 {
-        margin-left: 25px;
+        margin-left: 30px;
         font-size: 20px;
     }
 
@@ -79,42 +82,38 @@
 
     /*-- POPULAR--*/
     .pop-wrap {
-        display: flex;
+        display: unset;
         flex-direction: row;
         margin: 0;
         border-radius: unset;
         width: 100%;
     }
 
-    .pop-heading {
-        display: inline-block;
+    .pop-card-wrap {
+        display: flex;
+        flex-direction: row;
         width: 100%;
+        margin-left: 20px;
+        padding-bottom: 15px;
     }
 
     .pop-heading h2 {
-        /* display: unset; */
+        display: unset;
         font-size: 20px;
-        margin-left: 25px;
-
+        margin-left: 28px;
+        justify-content: unset;
     }
 
     .pop-card {
         display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        width: 25%;
-        margin-left: 25px;
+        margin-right: 20px;
+        width: 28%;
     }
-
+    
     .pop-heading i {
-        margin-right: 45%;
-        margin-left: 16px;
-    }
-
-    .pop-card a {
         display: unset;
-        text-decoration: none;
-        color: black; 
+        margin-right: 5%;
+        margin-left: 16px;
     }
 
     .text-wrap-pop h3 {
@@ -144,15 +143,26 @@
     }
 
     /*-- ACTIVITIES--*/
+    .activ-title {
+        font-size: 20px;
+        padding-left: 35px;
+    }
+    
     .activ-title-card {
-        font-size: 11.5px;
+        font-size: 13px;
     }
 
     .activ-card {
          width: 40%;
     }
 
+    .activ-card-wrap {
+        padding-left: 10px;
+        justify-content: space-around;
+    }
+
     .activ-wrap-stack {
+        /* padding-left: 10px; */
         width: 45%;
     }
 
@@ -166,5 +176,23 @@
     #img-3 {
         object-position: unset;
         height: 90px;
+    }
+
+    /*-- FOOTER--*/
+    footer {
+        margin: 48px;
+        justify-content: space-evenly;
+    }
+
+    #footer-1 {
+        margin-right: 20px;
+    }
+
+    #footer-2 {
+        margin-right: 20px;
+    }   
+
+    #footer-3 {
+        margin-right: 29%;
     }
 }
