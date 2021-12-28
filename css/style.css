@@ -6,10 +6,8 @@
   color: black;
 }
 
-
 body {
   max-width: 1440px;
-  min-width: 993px;
   margin: auto;
 }
 
@@ -326,6 +324,7 @@ header a {
 .show-more:hover {
   color: #0065fc;
 }
+
 /*-- POPULAR--*/
 
 .pop-wrap {
@@ -440,6 +439,7 @@ header a {
 
 
 /*-- ACTIVITIES--*/
+
 .activ {
   border-radius: 15px;
   padding: 20px;
@@ -537,6 +537,7 @@ header a {
 }
 
 /*-- FOOTER--*/
+
 footer {
   display: flex;
   flex-direction: row;
